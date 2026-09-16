@@ -1,0 +1,35 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local RiceQuant data cache and generated factor matrices
+factor_data/data/
+factor_data/*.csv
+factor_data/*.parquet
+factor_data/*.feather
+factor_data/*.pkl
+factor_data/*.zip
+factor_results/
+outputs/
+
+# Local logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db

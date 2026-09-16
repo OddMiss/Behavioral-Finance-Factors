@@ -1,0 +1,138 @@
+{
+  "default_start_date": "2019-01-01",
+  "default_end_date": "2026-08-31",
+  "factor_scripts": [
+    {
+      "name": "衰减加权月频成交量（ATTN）",
+      "script": "衰减加权月频成交量（ATTN）.py",
+      "field": "ATTN",
+      "uses_local_data": false
+    },
+    {
+      "name": "每日最大异常成交量（ABNVOLD）",
+      "script": "每日最大异常成交量（ABNVOLD）.py",
+      "field": "ABNVOLD",
+      "uses_local_data": false
+    },
+    {
+      "name": "每日平均异常成交（ABNVOLAVG）",
+      "script": "每日平均异常成交（ABNVOLAVG）.py",
+      "field": "ABNVOLAVG",
+      "uses_local_data": false
+    },
+    {
+      "name": "未实现盈利量（CGO）",
+      "script": "未实现盈利量（CGO）.py",
+      "field": "CGO",
+      "uses_local_data": false
+    },
+    {
+      "name": "最大异常日收益率（ABNRETD）",
+      "script": "最大异常日收益率（ABNRETD）.py",
+      "field": "ABNRETD",
+      "uses_local_data": false
+    },
+    {
+      "name": "平均换手率（TURNAVG）",
+      "script": "平均换手率（TURNAVG）.py",
+      "field": "TURNAVG",
+      "uses_local_data": false
+    },
+    {
+      "name": "平均异常日收益率（ABNRETAVG）",
+      "script": "平均异常日收益率（ABNRETAVG）.py",
+      "field": "ABNRETAVG",
+      "uses_local_data": false
+    },
+    {
+      "name": "基于涨跌停的注意力捕捉",
+      "script": "基于涨跌停的注意力捕捉.py",
+      "field": "LIMIT_PROP_BETA",
+      "uses_local_data": false
+    },
+    {
+      "name": "基于沪深总成交额的注意力捕捉",
+      "script": "基于沪深总成交额的注意力捕捉.py",
+      "field": "MKT_TURNOVER_BETA",
+      "uses_local_data": false
+    },
+    {
+      "name": "基于换手率的注意力溢出（SPILL）",
+      "script": "基于换手率的注意力溢出（SPILL）.py",
+      "field": "SPILL_TURN",
+      "uses_local_data": true
+    },
+    {
+      "name": "基于市场波动率的注意力捕捉",
+      "script": "基于市场波动率的注意力捕捉.py",
+      "field": "INDUS_VOL_BETA",
+      "uses_local_data": true
+    },
+    {
+      "name": "基于异常收益的注意力溢出（SPILL）",
+      "script": "基于异常收益的注意力溢出（SPILL）.py",
+      "field": "SPILL",
+      "uses_local_data": true
+    },
+    {
+      "name": "基于 PE 的分析师锚定效应偏差（CAF_EP）",
+      "script": "基于 PE 的分析师锚定效应偏差（CAF_EP）.py",
+      "field": "CAF_EP",
+      "uses_local_data": true
+    },
+    {
+      "name": "基于 PB 的前景价值 TK",
+      "script": "基于 PB 的前景价值 TK.py",
+      "field": "TK_PB",
+      "uses_local_data": false
+    },
+    {
+      "name": "前景价值（TK）",
+      "script": "前景价值（TK）.py",
+      "field": "TK",
+      "uses_local_data": false
+    },
+    {
+      "name": "SLSV 模型（对称 LSV 模型）",
+      "script": "SLSV 模型（对称 LSV 模型）.py",
+      "field": "SLSV",
+      "uses_local_data": true
+    },
+    {
+      "name": "CSAD 模型（基于“小型”板块）",
+      "script": "CSAD 模型（基于“小型”板块）.py",
+      "field": "SMALL_BOARD_CSAD",
+      "uses_local_data": false
+    },
+    {
+      "name": "CSAD 模型（基于时序回归变形）",
+      "script": "CSAD 模型（基于时序回归变形）.py",
+      "field": "CSAD_TS_RATIO",
+      "uses_local_data": false
+    },
+    {
+      "name": "CSAD 模型（基于板块中地位）",
+      "script": "CSAD 模型（基于板块中地位）.py",
+      "field": "SMALL_BOARD_CSAD",
+      "uses_local_data": false
+    },
+    {
+      "name": "LSV 模型",
+      "script": "LSV 模型.py",
+      "field": "LSV",
+      "uses_local_data": true
+    },
+    {
+      "name": "基于异常收益的注意力捕捉",
+      "script": "基于异常收益的注意力捕捉.py",
+      "field": "INDUS_ABND_BETA",
+      "uses_local_data": true
+    },
+    {
+      "name": "基于换手率的注意力捕捉",
+      "script": "基于换手率的注意力捕捉.py",
+      "field": "INDUS_TURN_BETA",
+      "uses_local_data": true
+    }
+  ]
+}
